@@ -1,0 +1,24 @@
+*, *::after, *::before{
+    margin: 0;
+    padding: 0;
+}
+
+::root{
+
+}
+
+body{
+    min-height:100vh;
+    display: grid;
+    grid-template-columns: auto;
+    grid-template-rows: 50px 50px 50px;
+    justify-content: center;
+    align-content: center;
+}
+
+.answer{
+    background-color: antiquewhite;
+    width: 100px;
+    height: 50px;
+    text-align:center;
+}
